@@ -4,7 +4,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: 1;
-    grid-template-rows: 10vh 1fr 10vh;
+    grid-template-rows: 15vh 1fr 10vh;
 }
 header{
     grid-row: 1 / 2;
@@ -23,7 +23,7 @@ main{
 }
 
 #home{
-    background-color: blueviolet;
+    background-color: #ffbd59;
     grid-row: 1/2;
 }
 #quem-somos{
