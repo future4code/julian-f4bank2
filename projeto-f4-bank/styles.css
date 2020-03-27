@@ -1,44 +1,51 @@
-body{
+body {
     margin: 0;
 }
-.container{
+
+.container {
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: 10vh 1fr 10vh;
 }
-header{
+
+header {
     grid-row: 1 / 2;
     background-color: blue;
 }
-footer{
+
+footer {
     grid-row: -2/-1;
     background-color: brown;
 }
 
-main{
+main {
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: 1;
-    grid-template-rows: repeat(5, 100vh); /*Se precisar add mais uma "linha" é só add no primeiro numero*/
+    grid-template-rows: repeat(5, 100vh);
+    /*Se precisar add mais uma "linha" é só add no primeiro numero*/
 }
 
-#home{
+#home {
     background-color: blueviolet;
     grid-row: 1/2;
 }
-#quem-somos{
+
+#quem-somos {
     grid-row: 1 span;
-    background-color: seagreen;
 }
-#baixe-nosso-app{
+
+#baixe-nosso-app {
     grid-row: 1 span;
     background-color: darkcyan;
 }
-#nossos-clientes{
+
+#nossos-clientes {
     grid-row: 1 span;
     background-color: lawngreen;
 }
-#contato{
+
+#contato {
     grid-row: 1 span;
     background-color: yellow;
 }
