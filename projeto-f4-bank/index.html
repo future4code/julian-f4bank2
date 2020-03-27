@@ -4,14 +4,11 @@
 <head>
   <meta charset="utf-8">
   <title>F4Bank</title>
-  <meta name="description" content="F4Bank">
+  <meta name="description" content="descrição">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <link rel="apple-touch-icon" href="icon.png">
-  <!-- 
-  <link rel="stylesheet" href="css/main.css"> -->
-
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap" rel="stylesheet">
   <!--Css principal -->
   <link rel="stylesheet" href="mel.css">
   <link rel="stylesheet" href="Rapha.css">
@@ -22,33 +19,28 @@
 <body>
   <div class="container">
     <header>
-      <nav>
-        <div id="logo">
-          <img src="" alt="logo">
-        </div>
-
-        <ul id="navbar">
-          <li>Quem Somos</li>
-          <li>Produtos/Serviços</li>
-          <li>Baixe nosso app</li>
-          <li>Cases de Sucesso</li>
-          <li>Nossos Clientes</li>
+      <div id="logo">
+        <img src="f4bank.png" alt="logo">
+      </div>
+      <nav id="menu">
+        <ul>
+          <li><a href="">Quem Somos</a></li>
+          <li><a href="">Produtos</a></li>
+          <li><a href="">app</a></li>
+          <li><a href="">Clientes</a></li>
+          <li><button class="abra-sua-conta">Abra sua conta</button></li>
         </ul>
-        <div class="abra-sua-conta">
-          <button>Abra sua conta</button>
-        </div>
       </nav>
     </header>
 
     <main>
       <section id="home">
-        <div class="home-h1">
-          <h1>lorem ipsum</h1>
-          <p>lorem ipsum lorem</p>
+        <div id="home-h1">
+          <h1>Tradição e Inovação</h1>
+          <p>no seu bolso</p>
         </div>
-
-        <div class="home-img">
-          <img src="" alt="">
+        <div id="home-img">
+          <img src="bank-clip-financial-1-transparent.png" alt="">
         </div>
       </section>
 
@@ -93,50 +85,30 @@
       </section>
 
       <section id="nossos-clientes">
-
-        <div class="nossos-clientes-titulo">
-          <h2>A opinião de quem já é #F4</h2>
+        <div class="depoimentos-item">
+          <h2></h2>
+          <img src="" alt="print-redes-social">
+          <p></p>
         </div>
-
-        <div class="depoimentos-container">
-
-          <div class="depoimentos-item">
-            <img src="/img/cliente-1.jpg" alt="foto-cliente">
-            <h2>Leonardo S</h2>
-            <p>"A empresa #QualquerCoisaSites oferece opções que facilitam o processo de criar apresentações para palestras e reuniões de
-              trabalho, com belo visual e boa dinâmica."</p>
-          </div>
-
-          <div class="depoimentos-item">
-            <img src="/img/cliente-2.jpg" alt="foto-cliente">
-            <h2>Melissa M</h2>
-            <p>"Quero ressaltar o trabalho da equipe da QualquerCoisaSites.com.br. Os profissionais são muito bons, com respostas
-              precisas e rápidas. O atendimento é excelente"</p>
-          </div>
-
-          <div class="depoimentos-item">
-            <img src="/img/cliente3.png" alt="foto-cliente">
-            <h2>Raphael G</h2>
-            <p>"Quero ressaltar o trabalho da equipe da #QualquerCoisaSites. Os profissionais são muito bons, com respostas
-              precisas e rápidas. O atendimento é excelente"</p>
-          </div>
+        <div class="depoimentos-item">
+          <h2></h2>
+          <img src="" alt="print-redes-social">
+          <p></p>
+        </div>
+        <div class="depoimentos-item">
+          <h2></h2>
+          <img src="" alt="print-redes-social">
+          <p></p>
         </div>
       </section>
 
       <section id="contato">
-        <h2>Fale conosco por aqui</h2>
-
+        <h2>Quero ser F4Bank</h2>
         <form>
-          <input type="text" name="text"  id="nome-form" placeholder="nome completo" required>
-          <input type="number" name="number"  id="cpf-form" placeholder="CPF" required>
-          <input type="email" name="email"   id="email-form" placeholder="E-mail" required>
-          <input type="email" name="email"  id="email-form" placeholder="Confirmação de E-mail" required>
-          <div class="check">
-            <input type="checkbox">
-            <a href="">Li e concordo com os termos.</a>
-
-          </div>
-
+          <input type="text" name="text" id="nome-form" placeholder="nome completo" required>
+          <input type="number" name="number" id="cpf-form" placeholder="CPF" required>
+          <input type="email" name="email" id="email-form" placeholder="E-mail" required>
+          <input type="email" name="email" id="email-form" placeholder="Confirmação de E-mail" required>
           <button id="enviar-form">Quero ser F4Bank</button>
         </form>
       </section>
