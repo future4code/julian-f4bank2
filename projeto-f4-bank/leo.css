@@ -38,39 +38,17 @@
 /** Inicio das configurações do Produtos e serviços **/
 
 #baixe-nosso-app {
-  display: flex;
-  flex-direction: row;
   margin: 0px;
   padding: 0px;
+  display: flex;
   position: relative;
 }
 
-.flexRow {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 40vw;
+.loja-conta {
+  overflow: hidden;
 }
 
-.flexColumn {
-  width: 40vw;
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-  justify-content: center;
-}
-
-.lojas-mobiles {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 2;
-  align-self: flex-start;
-  max-width: 600px;
-}
-
-.lojaH3 {
+.loja-conta h3 {
   text-align: left;
   font-size: 50px;
   line-height: 1.25em;
@@ -78,11 +56,46 @@
   margin-left: 5vw;
 }
 
+.nossoImg {
+  width: 50%;
+  margin-bottom: 0;
+  margin-left: 35vh;
+  padding: 0;
+}
+
 .lojaP {
   width: 40vw;
   font-size: 1.8rem;
   color: white;
-  margin-left: 6vw;
+  margin-left: 7vw;
+}
+
+.loja-credito {
+  overflow: hidden;
+  -ms-flex-align: start;
+}
+
+.loja-credito h3 {
+  margin-top: 14vh;
+  text-align: right;
+  font-size: 50px;
+  line-height: 1.25em;
+  margin-right: 22vw;
+  color: #fff;
+  position: relative;
+}
+
+.nossoCT {
+  width: 40%;
+  margin-top: 10vh;
+}
+
+.lojaP2 {
+  width: 40vw;
+  font-size: 1.8rem;
+  color: white;
+  margin-left: 30vw;
+  margin-top: 5vh;
 }
 
 /**
