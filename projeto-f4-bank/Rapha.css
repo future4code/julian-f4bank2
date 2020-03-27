@@ -1,0 +1,94 @@
+#nossos-clientes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.nossos-clientes-titulo {
+    font-size: 2em;
+    color: #ff914d;
+}
+.depoimentos-container {
+
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 70%;
+}
+
+.depoimentos-item {
+    background-color: #ffbd59;
+    color: #fff;
+    width: 22%;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+
+}
+
+.depoimentos-item img {
+    
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+/*SEÇÃO DE CONTATO*/
+
+#contato {
+    background-color: #ff914d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+
+}
+
+#contato h2 {
+    font-size: 2em;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 50%;
+    max-width: 600px;
+    min-width: 280px;
+    height: auto;
+
+}
+
+form input {
+    margin: 2px;
+    padding: 20px;
+    border-style: none;
+    border-bottom: 2px solid #fff;
+    background-color: #ff914d ;
+
+}
+
+input::placeholder {
+
+color: #fff;
+font-size: 1em;
+}
+}
+form button {
+    margin: 2px;
+    background-color: #ffbd59;
+    font-size: 1em;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+}

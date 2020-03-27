@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 10vh 1fr 10vh;
+}
+header{
+    grid-row: 1 / 2;
+    background-color: blue;
+}
+footer{
+    grid-row: -2/-1;
+    background-color: brown;
+}
+
+main{
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(5, 100vh); /*Se precisar add mais uma "linha" é só add no primeiro numero*/
+}
+
+#home{
+    background-color: blueviolet;
+    grid-row: 1/2;
+}
+#quem-somos{
+    grid-row: 1 span;
+    background-color: seagreen;
+}
+#baixe-nosso-app{
+    grid-row: 1 span;
+    background-color: darkcyan;
+}
+#nossos-clientes{
+    grid-row: 1 span;
+
+}
+#contato{
+    grid-row: 1 span;
+
+}
