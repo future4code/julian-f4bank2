@@ -1,5 +1,9 @@
 body{
     margin: 0;
+    font-family: Rubik;
+}
+p {
+    font-family: Roboto;
 }
 .container{
     display: grid;
@@ -12,7 +16,7 @@ header{
 }
 footer{
     grid-row: -2/-1;
-    background-color: brown;
+    background-color: #ff914d;
 }
 
 main{
