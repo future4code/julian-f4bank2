@@ -6,7 +6,7 @@ p {
     font-family: Roboto;
 }
 .container{
-    display: grid;
+     display: grid;
     grid-template-columns: 1;
     grid-template-rows: 10vh 1fr 10vh;
 }
@@ -40,6 +40,8 @@ main{
 }
 #nossos-clientes{
     grid-row: 1 span;
+
+    
 
 }
 #contato{

@@ -27,7 +27,10 @@
     border-radius: 5px;
     padding: 10px;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.2em;
+
+      box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.2);
+
 
 }
 
@@ -126,13 +129,43 @@ form button {
 /*SEÇÃO DE FOOTER*/
 
 #footer {
-     height: 200px;
-     background-color: #e29015;
+     height: 50vh;
+    background-color: #e29015;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    color: #fff;
 
 }
 
 .footer-redes {
-    height: 100px;
+     height: auto;
+    display: flex;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center; 
 
     
+}
+ 
+.footer-redes img {
+
+    width: 30px;
+}
+
+
+.creditos { 
+    background-color: rgb(223, 163, 74);
+    font-size: 0.7em;
+    border-radius: 3px;
+    padding:  0 10px;
+}
+
+.creditos span {
+    font-weight: 600;
 }
