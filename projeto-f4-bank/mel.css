@@ -84,12 +84,6 @@ nav{
 }
 
 @media screen and (max-width: 400px){
-    main{
-        grid-row: 2 / 3;
-        display: grid;
-        grid-template-columns: 1;
-
-    }
     #menu ul li a{
         display: none;
     }
@@ -107,7 +101,7 @@ nav{
         grid-row: 2 / 3;
         display: grid;
         grid-template-columns: 1;
-        grid-template-rows: 30vh 1fr 1fr 1fr 1fr;
+        grid-template-rows: 50vw 1fr 1fr 1fr 1fr;
     }
     #home-h1 h1{
         font-size: 4.5vw;
