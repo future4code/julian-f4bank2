@@ -38,71 +38,95 @@
 /** Inicio das configurações do Produtos e serviços **/
 
 #baixe-nosso-app {
+  width: 100%;
   margin: 0px;
   padding: 0px;
   display: flex;
+  flex-direction: row;
   position: relative;
 }
 
 .loja-conta {
-  overflow: hidden;
-}
-
-.loja-conta h3 {
-  text-align: left;
-  font-size: 50px;
-  line-height: 1.25em;
-  color: #fff;
-  margin-left: 5vw;
-}
-
-.nossoImg {
   width: 50%;
-  margin-bottom: 0;
-  margin-left: 35vh;
-  padding: 0;
-}
-
-.lojaP {
-  width: 40vw;
-  font-size: 1.8rem;
-  color: white;
-  margin-left: 7vw;
-}
-
-.loja-credito {
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
-  -ms-flex-align: start;
 }
 
-.loja-credito h3 {
-  margin-top: 14vh;
-  text-align: right;
+.loja-conta-h3 {
+  text-align: center;
   font-size: 50px;
   line-height: 1.25em;
-  margin-right: 22vw;
+  padding-top: 10vh;
+  padding-right: 8vw;
   color: #fff;
   position: relative;
 }
 
-.nossoCT {
-  width: 40%;
-  margin-top: 10vh;
-}
-
-.lojaP2 {
+.lojaP {
+  text-align: center;
   width: 40vw;
   font-size: 1.8rem;
   color: white;
-  margin-left: 30vw;
-  margin-top: 5vh;
+  position: absolute;
+  padding-top: 12vw;
 }
 
-/**
-.div-img {
+.nossoConta {
+  width: 70%;
+  margin-bottom: 0;
+  padding: 0;
+  align-self: flex-end;
+  position: relative;
+  overflow: hidden;
+}
+
+.nossoConta img {
+  width: 100%;
+}
+
+.loja-credito {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
-  flex: 2;
+  justify-content: space-evenly;
+  overflow: hidden;
 }
-**/
+
+.loja-credito {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.loja-credito-h3 {
+  text-align: center;
+  padding-top: 20vh;
+  padding-left: 14vw;
+  font-size: 50px;
+  line-height: 1.25em;
+  color: #fff;
+  position: relative;
+}
+
+.lojap2 {
+  text-align: right;
+  width: 40vw;
+  font-size: 1.8rem;
+  color: white;
+  position: absolute;
+}
+
+.nossoCartao {
+  width: 60%;
+  margin-bottom: 0;
+  padding-top: 5vh;
+  align-self: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+
+.nossoCartao img {
+  width: 100%;
+}
