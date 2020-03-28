@@ -38,58 +38,95 @@
 /** Inicio das configurações do Produtos e serviços **/
 
 #baixe-nosso-app {
-  display: flex;
-  flex-direction: row;
+  width: 100%;
   margin: 0px;
   padding: 0px;
+  display: flex;
+  flex-direction: row;
   position: relative;
 }
 
-.flexRow {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 40vw;
-}
-
-.flexColumn {
-  width: 40vw;
+.loja-conta {
+  width: 50%;
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-  justify-content: center;
+  overflow: hidden;
 }
 
-.lojas-mobiles {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 2;
-  align-self: flex-start;
-  max-width: 600px;
-}
-
-.lojaH3 {
-  text-align: left;
+.loja-conta-h3 {
+  text-align: center;
   font-size: 50px;
   line-height: 1.25em;
+  padding-top: 10vh;
+  padding-right: 8vw;
   color: #fff;
-  margin-left: 5vw;
+  position: relative;
 }
 
 .lojaP {
+  text-align: center;
   width: 40vw;
   font-size: 1.8rem;
   color: white;
-  margin-left: 6vw;
+  position: absolute;
+  padding-top: 12vw;
 }
 
-/**
-.div-img {
+.nossoConta {
+  width: 70%;
+  margin-bottom: 0;
+  padding: 0;
+  align-self: flex-end;
+  position: relative;
+  overflow: hidden;
+}
+
+.nossoConta img {
+  width: 100%;
+}
+
+.loja-credito {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
-  flex: 2;
+  justify-content: space-evenly;
+  overflow: hidden;
 }
-**/
+
+.loja-credito {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.loja-credito-h3 {
+  text-align: center;
+  padding-top: 20vh;
+  padding-left: 14vw;
+  font-size: 50px;
+  line-height: 1.25em;
+  color: #fff;
+  position: relative;
+}
+
+.lojap2 {
+  text-align: right;
+  width: 40vw;
+  font-size: 1.8rem;
+  color: white;
+  position: absolute;
+}
+
+.nossoCartao {
+  width: 60%;
+  margin-bottom: 0;
+  padding-top: 5vh;
+  align-self: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+
+.nossoCartao img {
+  width: 100%;
+}
