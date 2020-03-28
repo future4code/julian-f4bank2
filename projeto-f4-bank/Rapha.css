@@ -1,43 +1,50 @@
 #nossos-clientes {
+    height: 100vh;
+
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+     text-align: center;
+    justify-content: center;
+    
  }
 .nossos-clientes-titulo {
     font-size: 2em;
     color: #ffbd59;
+
+    
 }
 .depoimentos-container {
 
-    width: 80vw;
+    margin: 2vh 0;
+    height: auto;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
-
+    
 }
 
 .depoimentos-item {
     background-color: #ffbd59;
     color: #fff;
     width: 22%;
-    min-width: 220px;
+    min-width: 280px;
     height: auto;
+    min-height: 480px;
     border-radius: 5px;
     padding: 10px;
+    margin-top: 40px;
     text-align: center;
     font-size: 1.2em;
-
       box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.2);
 
 
 }
 
 .depoimentos-item img {
-    
     width: 200px;
     border-radius: 50%;
+    border: 2px dotted wheat;
 }
 
 
@@ -82,6 +89,8 @@ form input {
     border-bottom: 2px solid #fff;
     background-color: #ffbd59;
     color: #fff;
+    font-family: roboto;
+
 
 
 }
@@ -145,11 +154,9 @@ form button {
     display: flex;
     display: flex;
     flex-direction: row;
-
     justify-content: space-evenly;
     align-items: center;
     text-align: center; 
-
     
 }
  
@@ -164,8 +171,21 @@ form button {
     font-size: 0.7em;
     border-radius: 3px;
     padding:  0 10px;
+    font-family: roboto;
+
 }
 
 .creditos span {
     font-weight: 600;
+}
+
+@media only screen and (max-device-width : 420px) {
+
+    .depoimentos-container {
+           flex-direction: column;
+          
+    }
+
+    
+
 }
