@@ -4,6 +4,7 @@
 	flex-direction: column;
 	text-align: center;
 	justify-content: center;
+
 }
 
 .nossos-clientes-titulo {
@@ -12,9 +13,8 @@
 }
 
 .depoimentos-container {
-	padding: 0 20px;
-	height: auto;
-	display: flex;
+	
+ 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-evenly;
@@ -23,11 +23,12 @@
 .depoimentos-item {
 	background-color: #ffbd59;
 	color: #fff;
-	height: auto;
+	width: 28%;
+	height: 490px;
 	border-radius: 5px;
 	padding: 10px;
 	margin: 2px;
-	margin-top: 40px;
+
 	text-align: center;
 	font-size: 1.2em;
 	box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -158,8 +159,3 @@ form button {
 	font-weight: 600;
 }
 
-@media only screen and (max-device-width: 420px) {
-	.depoimentos-container {
-		flex-direction: column;
-	}
-}
