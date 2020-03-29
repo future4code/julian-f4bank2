@@ -1,5 +1,5 @@
 #nossos-clientes {
-	height: 100vh;
+	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -44,9 +44,7 @@
 	border: 2px dotted wheat;
 }
 
-
 /*SEÇÃO DE CLIENTES*/
-
 
 /*SEÇÃO DE CONTATO*/
 
@@ -119,7 +117,6 @@ form button {
 	color: #fff;
 }
 
-
 /*SEÇÃO DE FOOTER*/
 
 #footer {
@@ -157,5 +154,12 @@ form button {
 
 .creditos span {
 	font-weight: 600;
+}
+
+
+@media only screen and (max-device-width: 400px) {
+	.depoimentos-container {
+		flex-direction: column;
+	}
 }
 
