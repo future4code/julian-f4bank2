@@ -1,4 +1,4 @@
-/** inicio do quem somos **/
+/* inicio do quem somos */
 
 #quem-somos {
   text-align: left;
@@ -13,6 +13,8 @@
   height: 100%;
 }
 
+/* editando atributos do H1 */
+
 .somosH1 {
   text-align: left;
   font-size: 50px;
@@ -21,15 +23,17 @@
   margin-left: 5vw;
 }
 
+/* atributos dos paragrafos */
+
 .somosP {
   font-size: 1.5rem;
   color: white;
   margin-left: 30px;
 }
 
-/** fim do quem somos **/
+/* fim do quem somos */
 
-/** Inicio das configurações do Produtos e serviços **/
+/* Inicio das configurações do Produtos e serviços */
 
 #baixe-nosso-app {
   width: 100%;
@@ -41,12 +45,16 @@
   height: 100%;
 }
 
+/* atributos section lado esquerdo  */
+
 .loja-conta {
   width: 100%;
   display: flex;
   flex-direction: column;
   overflow: hidden;
 }
+
+/* atributos h3 */
 
 .loja-conta-h3 {
   text-align: center;
@@ -55,6 +63,8 @@
   color: #fff;
   position: relative;
 }
+
+/* atributos paragrafos */
 
 .lojaP {
   text-align: center;
@@ -65,15 +75,21 @@
   padding-top: 2vh;
 }
 
+/* atributos da imagem */
+
 .nossoConta {
   width: 100%;
   position: relative;
   overflow: hidden;
 }
 
+/* tamanho da imagem */
+
 .nossoConta img {
   width: 70%;
 }
+
+/* atributos lado direito */
 
 .loja-credito {
   width: 100%;
@@ -83,12 +99,16 @@
   overflow: hidden;
 }
 
+/* atributos h3 */
+
 .loja-credito-h3 {
   width: 100%;
   text-align: center;
   font-size: 40px;
   color: #fff;
 }
+
+/* atributos paragrafos */
 
 .lojap2 {
   padding-top: 2vh;
@@ -98,15 +118,21 @@
   color: white;
 }
 
+/* atributos imagem */
+
 .nossoCartao {
   width: 60%;
   overflow: hidden;
   padding-left: 12vw;
 }
 
+/* tamanho da imagem */
+
 .nossoCartao img {
   width: 100%;
 }
+
+/* responsivo */
 
 @media screen and (max-width: 400px) {
   #quem-somos {
@@ -198,6 +224,8 @@
   }
 }
 
+/* responsivo */
+
 @media screen and (max-width: 800px) {
   #quem-somos {
     text-align: left;
@@ -226,7 +254,7 @@
     color: white;
     margin-left: 30px;
   }
-  /** FIM DO QUEM SOMOS **/
+  /* FIM DO QUEM SOMOS */
   #baixe-nosso-app {
     width: 100%;
     height: 100%;
@@ -278,7 +306,7 @@
   .nossoConta img:last-child {
     display: block;
   }
-  /** fim da configuração do lado da conta **/
+  /* fim da configuração do lado da conta */
   .loja-credito {
     width: 100%;
     overflow: hidden;
