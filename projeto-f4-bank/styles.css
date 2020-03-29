@@ -1,47 +1,51 @@
-body{
+body {
     margin: 0;
     font-family: Rubik;
 }
-.container{
-     display: grid;
+
+.container {
+    display: grid;
     grid-template-columns: 1;
     grid-template-rows: 10vh 1fr 10vh;
 }
-header{
+
+header {
     grid-row: 1 / 2;
     background-color: blue;
 }
-footer{
+
+footer {
     grid-row: -2/-1;
     background-color: #ff914d;
 }
 
-main{
+main {
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: 1;
-    grid-template-rows: repeat(5, 100vh); /*Se precisar add mais uma "linha" é só add no primeiro numero*/
+    grid-template-rows: repeat(5, 100vh);
+    /*Se precisar add mais uma "linha" é só add no primeiro numero*/
 }
 
-#home{
+#home {
     background-color: blueviolet;
     grid-row: 1/2;
 }
-#quem-somos{
-    grid-row: 1 span;
-    background-color: seagreen;
-}
-#baixe-nosso-app{
-    grid-row: 1 span;
-    background-color: darkcyan;
-}
-#nossos-clientes{
-    grid-row: 1 span;
 
-    
-
-}
-#contato{
+#quem-somos {
     grid-row: 1 span;
+    background-color: #ff914d;
+}
 
+#baixe-nosso-app {
+    grid-row: 1 span;
+    background-color: #ff914d;
+}
+
+#nossos-clientes {
+    grid-row: 1 span;
+}
+
+#contato {
+    grid-row: 1 span;
 }
