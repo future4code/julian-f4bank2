@@ -2,9 +2,6 @@ body{
     margin: 0;
     font-family: Rubik;
 }
-p {
-    font-family: Roboto;
-}
 .container{
      display: grid;
     grid-template-columns: 1;
