@@ -41,9 +41,9 @@ main {
     grid-row: 1 span;
     background-color: #ff914d;
 }
-
 #nossos-clientes {
-    grid-row: 1 span;
+    grid-column: auto;
+    background-color: darkcyan;
 }
 
 #contato {
