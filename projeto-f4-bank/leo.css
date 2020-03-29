@@ -1,244 +1,110 @@
-/* inicio do quem somos */
-
-#quem-somos {
-  text-align: left;
-  background-color: #ff914d;
-  background-image: url(img/somos.png);
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: contain;
-  position: relative;
-  padding: 0px;
-  margin: 0px;
-  height: 100%;
-}
-
-/* editando atributos do H1 */
-
-.somosH1 {
-  text-align: left;
-  font-size: 50px;
-  line-height: 1.25em;
-  color: #fff;
-  margin-left: 5vw;
-}
-
-/* atributos dos paragrafos */
-
-.somosP {
-  font-size: 1.5rem;
-  color: white;
-  margin-left: 30px;
-}
-
-/* fim do quem somos */
-
-/* Inicio das configurações do Produtos e serviços */
-
-#baixe-nosso-app {
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  height: 100%;
-}
-
-/* atributos section lado esquerdo  */
-
-.loja-conta {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-}
-
-/* atributos h3 */
-
-.loja-conta-h3 {
-  text-align: center;
-  width: 100%;
-  font-size: 40px;
-  color: #fff;
-  position: relative;
-}
-
-/* atributos paragrafos */
-
-.lojaP {
-  text-align: center;
-  width: 100%;
-  font-size: 1.8rem;
-  color: white;
-  position: relative;
-  padding-top: 2vh;
-}
-
-/* atributos da imagem */
-
-.nossoConta {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-}
-
-/* tamanho da imagem */
-
-.nossoConta img {
-  width: 70%;
-}
-
-/* atributos lado direito */
-
-.loja-credito {
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-}
-
-/* atributos h3 */
-
-.loja-credito-h3 {
-  width: 100%;
-  text-align: center;
-  font-size: 40px;
-  color: #fff;
-}
-
-/* atributos paragrafos */
-
-.lojap2 {
-  padding-top: 2vh;
-  text-align: center;
-  width: 100%;
-  font-size: 1.8rem;
-  color: white;
-}
-
-/* atributos imagem */
-
-.nossoCartao {
-  width: 60%;
-  overflow: hidden;
-  padding-left: 12vw;
-}
-
-/* tamanho da imagem */
-
-.nossoCartao img {
-  width: 100%;
-}
-
-/* responsivo */
-
 @media screen and (max-width: 400px) {
   #quem-somos {
+    min-width: 50vw;
+    min-height: 50vh;
     text-align: center;
-    background-color: #ff914d;
-    margin: 0px;
-    max-width: 395px;
-    height: auto;
+    margin: 0;
+  }
+  #quem-somos article {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 1;
   }
   .somosH1 {
-    text-align: center;
     font-size: 30px;
     line-height: 1.25em;
     color: #fff;
   }
   .somosP {
-    padding: 1px;
-    text-align: center;
-    font-size: 1.4rem;
+    flex-grow: 1;
+    font-size: 1.2rem;
     color: white;
+  }
+  #quem-somos article img {
+    width: 100vw;
+    flex-shrink: 1;
+    flex-grow: 1;
   }
   #baixe-nosso-app {
     display: flex;
     flex-direction: column;
-    justify-items: flex-start;
-    height: auto;
+    width: 100vw;
+    min-height: 50vh;
   }
   .loja-conta {
-    width: 100%;
+    width: 100vw;
+    min-height: 50vh;
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
+    align-content: center;
+    justify-content: center;
     text-align: center;
-  }
-  .loja-conta-h3 {
-    padding: 0;
-    font-size: 30px;
-    line-height: 1.25em;
     color: #fff;
   }
+  .loja-conta-h3 {
+    font-size: 30px;
+    flex-grow: 1;
+  }
   .lojaP {
-    position: static;
-    padding: 0;
-    width: 100vw;
+    width: 100%;
     font-size: 1.8rem;
-    color: white;
+    flex-grow: 1;
   }
   .nossoConta {
-    width: 100%;
-    margin-bottom: 0;
-    padding: 0;
     float: left;
     overflow: hidden;
+    flex-grow: 1;
   }
   .nossoConta img {
+    width: 90vw;
     display: block;
   }
   .loja-credito {
-    width: 100%;
+    width: 100vw;
+    min-height: 70vh;
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
-    overflow: hidden;
     justify-content: center;
-  }
-  .loja-credito-h3 {
-    text-align: center;
-    padding: 0;
-    font-size: 30px;
-    line-height: 1.25em;
     color: #fff;
     position: static;
   }
-  .lojap2 {
+  .loja-credito-h3 {
+    font-size: 30px;
     text-align: center;
-    width: 100vw;
+    flex-grow: 1;
+  }
+  .lojap2 {
     font-size: 1.8rem;
-    color: white;
-    position: static;
+    text-align: center;
+    flex-grow: 1;
   }
   .nossoCartao {
     width: 100%;
-    align-self: center;
-    position: static;
     overflow: hidden;
     justify-items: center;
+    flex-grow: 1;
+    margin-left: 5vw;
   }
   .nossoCartao img {
     width: 90vw;
-    padding-left: 3vw;
+    display: block;
   }
 }
 
-/* responsivo */
-
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 401px) {
+  /* inicio do quem somos */
   #quem-somos {
     text-align: left;
     background-color: #ff914d;
-    background-image: url(img/somos.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: contain;
-    position: static;
+    position: relative;
     padding: 0px;
     margin: 0px;
     height: 100%;
   }
+  /* editando atributos do H1 */
   .somosH1 {
     text-align: left;
     font-size: 50px;
@@ -246,97 +112,92 @@
     color: #fff;
     margin-left: 5vw;
   }
-  .somosH2 {
-    line-height: 1.25em;
-  }
+  /* atributos dos paragrafos */
   .somosP {
     font-size: 1.5rem;
     color: white;
     margin-left: 30px;
+    position: relative;
   }
-  /* FIM DO QUEM SOMOS */
+  #quem-somos article img {
+    background-color: #ff914d;
+    width: 40vw;
+    float: right;
+    flex-grow: 1;
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+  }
+  /* fim do quem somos */
+  /* Inicio das configurações do Produtos e serviços */
   #baixe-nosso-app {
     width: 100%;
-    height: 100%;
     margin: 0px;
     padding: 0px;
     display: flex;
     flex-direction: row;
-    position: relative;
+    height: 100%;
   }
+  /* atributos section lado esquerdo  */
   .loja-conta {
     width: 100%;
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    text-align: center;
   }
+  /* atributos h3 */
   .loja-conta-h3 {
-    padding: 0;
-    margin-top: 10vh;
     text-align: center;
-    font-size: 30px;
-    line-height: 1.25em;
+    width: 100%;
+    font-size: 40px;
     color: #fff;
-    position: static;
   }
+  /* atributos paragrafos */
   .lojaP {
-    padding-top: 0;
-    padding-bottom: 15px;
     text-align: center;
-    width: 50vw;
-    font-size: 1.7rem;
+    width: 100%;
+    font-size: 1.8rem;
     color: white;
-    position: static;
+    padding-top: 2vh;
   }
+  /* atributos da imagem */
   .nossoConta {
     width: 100%;
-    margin-bottom: 0;
-    padding: 0;
-    position: static;
     overflow: hidden;
-    float: left;
   }
+  /* tamanho da imagem */
   .nossoConta img {
-    width: 100%;
+    width: 70%;
   }
-  .nossoConta img:first-child {
-    display: none;
-  }
-  .nossoConta img:last-child {
-    display: block;
-  }
-  /* fim da configuração do lado da conta */
+  /* atributos lado direito */
   .loja-credito {
     width: 100%;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
-  }
-  .loja-credito-h3 {
-    margin-top: 10vh;
-    padding: 0;
-    text-align: center;
-    font-size: 30px;
-    color: #fff;
-    position: static;
-  }
-  .lojap2 {
-    text-align: center;
-    width: 50vw;
-    font-size: 1.7rem;
-    color: white;
-    position: static;
-  }
-  .nossoCartao {
-    width: 80%;
-    margin-bottom: 0;
-    padding-top: 5vh;
-    padding-left: 6vw;
-    align-self: none;
-    position: static;
     overflow: hidden;
   }
+  /* atributos h3 */
+  .loja-credito-h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+  }
+  /* atributos paragrafos */
+  .lojap2 {
+    padding-top: 2vh;
+    text-align: center;
+    width: 100%;
+    font-size: 1.8rem;
+    color: white;
+  }
+  /* atributos imagem */
+  .nossoCartao {
+    width: 60%;
+    overflow: hidden;
+    padding-left: 12vw;
+  }
+  /* tamanho da imagem */
   .nossoCartao img {
     width: 100%;
   }
