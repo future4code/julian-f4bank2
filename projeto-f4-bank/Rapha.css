@@ -1,0 +1,165 @@
+#nossos-clientes {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+
+}
+
+.nossos-clientes-titulo {
+	font-size: 2em;
+	color: #ffbd59;
+}
+
+.depoimentos-container {
+	
+ 	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.depoimentos-item {
+	background-color: #ffbd59;
+	color: #fff;
+	width: 28%;
+	height: 490px;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 2px;
+
+	text-align: center;
+	font-size: 1.2em;
+	box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.depoimentos-container:nth-child(1) {
+	background-color: aquamarine;
+}
+
+.depoimentos-item img {
+	width: 200px;
+	border-radius: 50%;
+	border: 2px dotted wheat;
+}
+
+/*SEÇÃO DE CLIENTES*/
+
+/*SEÇÃO DE CONTATO*/
+
+#contato {
+	background-color: #ffbd59;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: #fff;
+}
+
+.contato-titulo {
+	font-size: 2em;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	width: 50%;
+	max-width: 600px;
+	min-width: 280px;
+	height: auto;
+}
+
+form input {
+	margin: 2px;
+	padding: 20px;
+	border-style: none;
+	border-bottom: 2px solid #fff;
+	background-color: #ffbd59;
+	color: #fff;
+	font-family: roboto;
+}
+
+input::placeholder {
+	color: #fff;
+}
+
+.check {
+	margin: 10px 0 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+}
+
+.check a {
+	font-size: 1em;
+	color: #fff;
+	text-decoration: none;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+form button {
+	width: 30%;
+	min-width: 200px;
+	margin-top: 30px;
+	background-color: rgb(223, 163, 74);
+	font-size: 1em;
+	padding: 20px;
+	border-style: none;
+	border-radius: 5px;
+	color: #fff;
+}
+
+/*SEÇÃO DE FOOTER*/
+
+#footer {
+	height: 50vh;
+	background-color: #e29015;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+}
+
+.footer-redes {
+	height: auto;
+	display: flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+}
+
+.footer-redes img {
+	width: 30px;
+}
+
+.creditos {
+	background-color: rgb(223, 163, 74);
+	font-size: 0.7em;
+	border-radius: 3px;
+	padding: 0 10px;
+	font-family: roboto;
+}
+
+.creditos span {
+	font-weight: 600;
+}
+
+
+@media only screen and (max-device-width: 400px) {
+	.depoimentos-container {
+		flex-direction: column;
+	}
+}
+

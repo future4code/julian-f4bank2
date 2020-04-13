@@ -1,0 +1,204 @@
+@media screen and (max-width: 400px) {
+  #quem-somos {
+    min-width: 50vw;
+    min-height: 50vh;
+    text-align: center;
+    margin: 0;
+  }
+  #quem-somos article {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 1;
+  }
+  .somosH1 {
+    font-size: 30px;
+    line-height: 1.25em;
+    color: #fff;
+  }
+  .somosP {
+    flex-grow: 1;
+    font-size: 1.2rem;
+    color: white;
+  }
+  #quem-somos article img {
+    width: 100vw;
+    flex-shrink: 1;
+    flex-grow: 1;
+  }
+  #baixe-nosso-app {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 50vh;
+  }
+  .loja-conta {
+    width: 100vw;
+    min-height: 50vh;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+  .loja-conta-h3 {
+    font-size: 30px;
+    flex-grow: 1;
+  }
+  .lojaP {
+    width: 100%;
+    font-size: 1.8rem;
+    flex-grow: 1;
+  }
+  .nossoConta {
+    float: left;
+    overflow: hidden;
+    flex-grow: 1;
+  }
+  .nossoConta img {
+    width: 90vw;
+    display: block;
+  }
+  .loja-credito {
+    width: 100vw;
+    min-height: 70vh;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    position: static;
+  }
+  .loja-credito-h3 {
+    font-size: 30px;
+    text-align: center;
+    flex-grow: 1;
+  }
+  .lojap2 {
+    font-size: 1.8rem;
+    text-align: center;
+    flex-grow: 1;
+  }
+  .nossoCartao {
+    width: 100%;
+    overflow: hidden;
+    justify-items: center;
+    flex-grow: 1;
+    margin-left: 5vw;
+  }
+  .nossoCartao img {
+    width: 90vw;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 401px) {
+  /* inicio do quem somos */
+  #quem-somos {
+    text-align: left;
+    background-color: #ff914d;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+  }
+  /* editando atributos do H1 */
+  .somosH1 {
+    text-align: left;
+    font-size: 50px;
+    line-height: 1.25em;
+    color: #fff;
+    margin-left: 5vw;
+  }
+  /* atributos dos paragrafos */
+  .somosP {
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 30px;
+    position: relative;
+  }
+  #quem-somos article img {
+    background-color: #ff914d;
+    width: 40vw;
+    float: right;
+    flex-grow: 1;
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+  }
+  /* fim do quem somos */
+  /* Inicio das configurações do Produtos e serviços */
+  #baixe-nosso-app {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  /* atributos section lado esquerdo  */
+  .loja-conta {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  /* atributos h3 */
+  .loja-conta-h3 {
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    color: #fff;
+  }
+  /* atributos paragrafos */
+  .lojaP {
+    text-align: center;
+    width: 100%;
+    font-size: 1.8rem;
+    color: white;
+    padding-top: 2vh;
+  }
+  /* atributos da imagem */
+  .nossoConta {
+    width: 100%;
+    overflow: hidden;
+  }
+  /* tamanho da imagem */
+  .nossoConta img {
+    width: 70%;
+  }
+  /* atributos lado direito */
+  .loja-credito {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  /* atributos h3 */
+  .loja-credito-h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+  }
+  /* atributos paragrafos */
+  .lojap2 {
+    padding-top: 2vh;
+    text-align: center;
+    width: 100%;
+    font-size: 1.8rem;
+    color: white;
+  }
+  /* atributos imagem */
+  .nossoCartao {
+    width: 60%;
+    overflow: hidden;
+    padding-left: 12vw;
+  }
+  /* tamanho da imagem */
+  .nossoCartao img {
+    width: 100%;
+  }
+}
